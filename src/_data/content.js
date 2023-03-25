@@ -1,4 +1,4 @@
-const header = 'Paul has a timeline.';
+const header = 'Paul has an even better timeline.';
 const footer = 'A footer goes here.';
 const entries = [
   {
