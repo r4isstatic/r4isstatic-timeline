@@ -18,7 +18,7 @@ const entries = [
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Dog',
-        linkText: 'Dog',
+        linkText: 'Cat',
       },
     ],
   },
