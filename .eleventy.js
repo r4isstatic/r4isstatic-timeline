@@ -6,7 +6,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginSass, {
     postcss: postcss([autoprefixer]),
     input: './src/css/*.sass',
-    output: './_site/css',
+    output: './site/css',
   });
   eleventyConfig.addPassthroughCopy('src/css/*.css');
   eleventyConfig.addPassthroughCopy('src/js');

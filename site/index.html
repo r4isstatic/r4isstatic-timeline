@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+<title>Paul has a timeline</title>
+
+<meta name="description" content="A super fancy timeline" />
+ 
+<meta name="author" content="Paul Rissen" />
+
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto+Slab|Hind+Vadodara:400,600"
+  rel="stylesheet"
+  type="text/css"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+  integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/main.css" />
+<link rel="icon" type="image/png" href="img/favicon.png" />
+<meta property="og:title" content="Paul has a timeline" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="img/og-image.jpg" />
+
+  </head>
+  <body>
+    
+    <header class="page-header">
+      
+      <p>
+         Paul has a timeline. 
+      </p>
+
+      <p></p>
+    </header>
+
+    
+    <section>
+      <div class="timeline-filter-wrapper">
+        <header class="timeline-filter">
+          <ul>
+            <li>
+              <input type="checkbox" name="filter-shortcut" id="all" checked />
+              <label for="all">All</label>
+            </li>
+            
+            <li>
+              <input type="checkbox" name="filter" id="intro" checked />
+              <label for="intro">Intro </label>
+            </li>
+            
+          </ul>
+        </header>
+      </div>
+      <article class="timeline">
+        
+        <div
+          class="timeline-entry"
+          data-category="intro"
+          aria-hidden="false"
+        >
+          <div class="timeline-icon blue" title="dog">
+            
+            <i class="fas fa-dog" aria-hidden="true"></i>
+            
+          </div>
+          <div class="timeline-description">
+            <span class="timestamp"
+              ><time datetime="2023-03-25 16:00"
+                >March 25, 2023 4:00 PM</time
+              ></span
+            >
+            <h2>
+              <a id="intro" href="#intro"><i class="fas fa-link"></i></a>This is an introduction
+            </h2>
+            
+            <div class="captioned-image image-right">
+              <a href="http://paulrissen.com"
+                >
+                <img src="https://paulrissen.files.wordpress.com/2018/07/cropped-gt94pbbg_400x4001.jpg" alt="https://paulrissen.files.wordpress.com/2018/07/cropped-gt94pbbg_400x4001.jpg" />
+                </a
+              > 
+              <span class="caption">go to my site!</span>
+              
+            </div>
+             
+            <p>
+               If this works, I'll be astounded. 
+            </p>
+             
+            <ul>
+              
+              <li>
+                <a href="https://en.wikipedia.org/wiki/Dog" target="_blank">Dog</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+        
+      </article>
+    </section>
+    
+    <footer class="page-footer">
+      
+      <p>
+         A footer goes here. 
+      </p>
+      
+      <p>
+        Built with Molly White's
+        <a href="https://github.com/molly/static-timeline-generator" target="_blank"
+          >static timeline generator</a
+        >.
+      </p>
+    </footer>
+    
+
+    <script src="js/classlist-polyfill.js"></script>
+    <script src="js/site-js.js"></script>
+  </body>
+</html>
