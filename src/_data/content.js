@@ -1,5 +1,5 @@
-const header = 'Paul has an even better timeline.';
-const footer = 'A footer goes here.';
+const header = 'Paul Rissen - Portfolio.';
+const footer = 'Made by Paul Rissen, inspired by Henry Cooke.';
 const entries = [
   {
     id: 'intro',
@@ -34,8 +34,8 @@ const entries = [
 ];
 
 // Page details
-const pageTitle = 'Paul has a timeline'; // The title of the page that shows in the browser tab
-const pageDescription = 'A super fancy timeline'; // The description of the page for search engines
+const pageTitle = 'Paul Rissen - Portfolio'; // The title of the page that shows in the browser tab
+const pageDescription = 'A portfolio of work'; // The description of the page for search engines
 const pageAuthor = 'Paul Rissen'; // Your name
 
 // DON'T EDIT BELOW THIS LINE! --------------------------------------------------------------------
