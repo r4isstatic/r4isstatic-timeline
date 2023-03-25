@@ -77,6 +77,18 @@ Once you run `npm run-script buld`, you will see a `_site` directory containing 
 
 ### GitHub pages
 
+Ignore the below stuff about using subtree. Instead, do the following:
+1. Make sure you're on the main branch
+2. Edit the /src/content.js file (etc)
+3. Use Terminal, and do npm install, followed by npm run-script build
+3a. This should create a new index file within the site folder
+4. Then use GitHub Desktop to push the changes back to Github
+5. Now copy the files in (underscore)site into your local timeline-staging-area folder
+6. Switch to the gh-pages branch
+7. Paste the files from the staging area, into the branch
+8. Use GitHub Desktop to push the files back to Github
+9. Check that the index html file matches the changes you made, and wait for it to upload to your server.
+
 To deploy your static site on GitHub pages (free), create a branch containing the static files in the root directory by running `git subtree push --prefix _site origin gh-pages`. Then you can go to your repository's Settings > Pages options and choose "Deploy from a branch", then select `gh-pages` as the branch.
 
 <img src="docs/gh-pages-config.png" alt="Github Pages config settings. Under 'Build and deployment', Source is set to 'Deploy from a branch', branch is set to 'gh-pages', and the folder is set to '/ (root)'." width="500"/>
