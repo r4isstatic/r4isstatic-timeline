@@ -29,7 +29,7 @@ const entries = [
     faicon: 'cat',
     datetime: '2020-01-01',
     title: 'A second entry',
-    body: "Fingers crossed, here we go! Did this work?",
+    body: "Fingers crossed, here we go! Did this work? We are checking, we are checking.",
   },
 ];
 
