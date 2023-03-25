@@ -4,7 +4,7 @@ const entries = [
   {
     id: 'intro',
     categories: ['intro'],
-    color: 'blue',
+    color: 'green',
     faicon: 'dog',
     datetime: '2023-03-25 16:00',
     title: 'This is an introduction',
@@ -21,6 +21,15 @@ const entries = [
         linkText: 'Cat',
       },
     ],
+  },
+  {
+    id: 'second',
+    categories: ['work'],
+    color: 'green',
+    faicon: 'cat',
+    datetime: '2020-01-01',
+    title: 'A second entry',
+    body: "Fingers crossed, here we go!",
   },
 ];
 
